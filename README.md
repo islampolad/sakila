@@ -51,4 +51,3 @@ Employs precise truncation routines respecting table order constraints, loads di
 * **Development Environment:** Visual Studio
 * **Language Runtime:** Python 3.14
   ```bash
-  pip install pandas numpy sqlalchemy pymysql
