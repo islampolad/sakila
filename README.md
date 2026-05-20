@@ -20,8 +20,8 @@ The target database architecture relies on a **Star Schema** deployment centered
 
 ## 🛠️ Repository Structure
 
-* 📂 **`Sakila_Data_Warehouse_Report.pdf`** (or `.docx`): The formal documentation answering the conceptual business questions, grain determinations, and design justifications.
-* 📜 **`sakila_olap_schema.sql`**: The MySQL DDL script defining the physical target warehouse tables, primary keys, and exact foreign key references.
+* 📂 **`Data Warehouse Report.pdf`** : The formal documentation answering the conceptual business questions, grain determinations, and design justifications.
+* 📜 **`sakila olap.sql`**: The MySQL DDL script defining the physical target warehouse tables, primary keys, and exact foreign key references.
 * 🐍 **`etl_process.py`**: The complete automated Python migration script containing the Extract, Transform, and Load engineering logic.
 
 ---
@@ -48,8 +48,7 @@ Employs precise truncation routines respecting table order constraints, loads di
 ## 💻 Tech Stack & Requirements
 
 * **Database Engine:** MySQL Server 8.0+
-* **Development Environment:** Visual Studio / VS Code
-* **Language Runtime:** Python 3.10+
-* **Required Libraries:**
+* **Development Environment:** Visual Studio
+* **Language Runtime:** Python 3.14
   ```bash
   pip install pandas numpy sqlalchemy pymysql
